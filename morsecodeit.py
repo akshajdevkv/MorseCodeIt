@@ -52,4 +52,4 @@ def play_sound(encrypted_message,speed='medium'):
 
 message = morse_code_converter('Hello my name is akshaj dev and I created this program')
 print(message)
-play_sound(message)
+play_sound(message,'slow')
